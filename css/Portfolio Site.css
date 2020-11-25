@@ -129,7 +129,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #5f83a7;
+  color: #6c00aa;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -137,13 +137,15 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #5f83a7;
+  color: #6c00aa;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
 }
+
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -325,13 +327,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #0400ff;
-  border-color: #0400ff;
+  background-color: #6c00aa;
+  border-color: #6c00aa;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #0400ff;
-  border-color: #0400ff;
+  background-color: #6c00aa;
+  border-color: #6c00aa;
 }
 
 .btn-secondary {
@@ -342,4 +344,8 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.fa-purple {
+  color: #a200ff;
 }
