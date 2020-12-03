@@ -346,3 +346,15 @@ color: #a200ff;
 padding-top: 6rem;
 padding-bottom: 2rem;
 }
+
+.social-vertical {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  vertical-align: text-bottom;
+}
+
+@media (max-width: 768px) {
+  .mylist-inline-item {
+    display: inline-block;
+  }
+}
