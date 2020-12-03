@@ -286,6 +286,7 @@ font-size: 2rem;
 
 .my-header-picture {
   margin-bottom: 3rem !important;
+  margin-left: auto !important;
 }
 
 .social {
@@ -304,6 +305,8 @@ font-size: 2rem;
   }
   .my-header-picture {
     margin-bottom: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .social {
     margin-right: auto !important;
