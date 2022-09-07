@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
- body {
-  font-family: 'Lato';
+body {
+    font-family: 'Varela Round';
 }
 
 h1,
@@ -14,9 +14,49 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: 'Montserrat';
+    font-weight: 700;
+    font-family: 'Architects Daughter';
 }
+
+
+.bg-header {
+  background-image:url("images/Header.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-top: 8rem;
+
+  text-align: center;
+}
+
+.my-header-picture {
+  margin-bottom: auto!important;
+  margin-left: auto !important;
+
+  width: auto;
+  height: auto;
+
+  max-height: 250px;
+  max-width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 hr.star-light,
 hr.star-dark {
@@ -58,7 +98,7 @@ hr.star-dark {
 
 hr.star-dark:after {
   color: #343a40;
-  background-color: rgb(255, 255, 255);
+  background-color: #f8f9fa;
 }
 
 section {
@@ -105,10 +145,10 @@ line-height: 3.1rem;
 }
 
 #mainNav {
-padding-top: 1rem;
-padding-bottom: 1rem;
-font-weight: 700;
-font-family: 'Montserrat';
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-family: 'Architects Daughter';
 }
 
 .bg-black {
@@ -292,14 +332,14 @@ font-size: 2rem;
   font-size: 3rem;
 }
 
-.my-header-picture {
-  margin-bottom: 3rem !important;
-  margin-left: auto !important;
-}
+
 
 .social {
   padding-top: 6rem;
   padding-bottom: 2rem;
+
+  position: relative;
+  bottom: 7rem;
 }
 }
 
@@ -352,6 +392,8 @@ background-color: #19242F !important;
 background-color: #2C3E50 !important;
 }
 
+
+
 .text-secondary {
 color: #2C3E50 !important;
 }
@@ -378,4 +420,12 @@ border-color: #1a252f;
 
 .fa-purple {
 color: #a200ff;
+}
+
+.nav-large {
+    font-size: 1.5em !important;
+}
+
+.centered-vert {
+    padding-top: 2em;
 }

@@ -12,6 +12,8 @@
 		<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Varela+Round:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter:400,700,400bold" rel="stylesheet" type="text/css">
 
 		<!-- Custom styles for this template -->
 		<link href="css/Portfolio Site.css" rel="stylesheet">
@@ -32,10 +34,10 @@
             	</button>
             	<div class="collapse navbar-collapse" id="navbarResponsive">
               		<ul class="navbar-nav ml-auto">
-                		<li class="nav-item mx-0 mx-lg-1">
+                		<li class="nav-item mx-0 mx-lg-1 nav-large">
                   			<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1">
+                        <li class="nav-item mx-0 mx-lg-1 nav-large">
                   			<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
                 		</li>
                 		
@@ -45,32 +47,53 @@
     	</nav>
 
     	<!-- Header -->
-    	<header class="masthead bg-light text-dark text-center">
-      		<div class="container">
-                <div class="row">
+    	<header class="masthead bg-header text-dark text-center">
+            <div class="container">
+				<div class="row">
+					<!--img id="image" src="images/icons/Blimp.gif"-->
 					<img class="img-fluid ml-auto my-header-picture" src="images/profile1.jpg">
-        		    <ul style="list-style-type:none;" class="social mr-auto">
-                        <li class="mylistfirst-inline-item">
-							<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/VoltageComedy" target="_blank">
-								  <i class="fab fa-github"></i>
-							</a>
+        			<ul style="list-style-type:none;" class="social mr-auto">
+						<li class="mylistfirst-inline-item">
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/NicholasChristianLeBlanc" target="_blank"-->
+									<!--i class="fab fa-github"></i-->
+									<input type="image" 
+									src="images/icons/Github-default.png" 
+									onclick="window.open('https://github.com/NicholasChristianLeBlanc', '_blank')"
+									onMouseOver="this.src='images/icons/Github.gif'" 
+									onMouseOut="this.src='images/icons/Github-default.png'">
+							<!--/a-->
 						</li>
 						<li class="mylist-inline-item">
-							<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://twitter.com/Myztix_Nick" target="_blank">
-								<i class="fab fa-fw fa-twitter"></i>
-							</a>
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://twitter.com/Myztix_Nick" target="_blank">
+								<i class="fab fa-fw fa-twitter"></i-->
+								<input type="image" 
+									src="images/icons/Twitter.png" 
+									onclick="window.open('https://twitter.com/Myztix_Nick', '_blank')"
+									onMouseOver="this.src='images/icons/Twitter.gif'" 
+									onMouseOut="this.src='images/icons/Twitter.png'">
+							<!--/a-->
 						</li>
 						<li class="mylist-inline-item">
-							<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/nicholas-leblanc-846a041b0/" target="_blank">
-								<i class="fab fa-fw fa-linkedin-in"></i>
-							</a>
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/nicholas-leblanc-846a041b0/" target="_blank">
+								<i class="fab fa-fw fa-linkedin-in"></i-->
+								<input type="image" 
+									src="images/icons/Linkedin.png" 
+									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
+									onMouseOver="this.src='images/icons/Linkedin.gif'" 
+									onMouseOut="this.src='images/icons/Linkedin.png'">
+							<!--/a-->
 						</li>
 						<li class="mylist-inline-item">
-							<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="mailto:nicholas_leblanc@outlook.com"> 
-								<i class="far fa-envelope"></i>
-							</a>
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="mailto:nicholas_leblanc@outlook.com"> 
+								<i class="far fa-envelope"></i-->
+								<input type="image" 
+									src="images/icons/Email.png" 
+									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
+									onMouseOver="this.src='images/icons/Email.gif'" 
+									onMouseOut="this.src='images/icons/Email.png'">
+							<!--/a-->
 						</li>
-                    </ul>
+					</ul>
 				</div>
       		</div>
     	</header>
@@ -94,7 +117,7 @@
 			  	<div class="row">
 					<!-- ml-auto sets margin-left to auto -->
 					<div class="col-lg-3 ml-auto mb-3 text-center">
-						<h4>Currently enrolled in Video Game Development at Eastern College</h4>
+						<h4>I Graduated From Eastern College in May of 2022</h4>
 					</div>
 					<!-- mr-auto sets margin-right to auto -->
 					<div class="col-lg-6 mr-auto mb-2">
@@ -103,17 +126,35 @@
 							Through my studies I've become comfortable with Unreal Engine 4 along with Unity, C++, C#, SDL2, Swift and Java, I also have a 
 							basic understanding using programs such as Blender, Maya, Illustrator, Photoshop and Premiere Pro. Though I've grown a greater 
 							gratitude of video games through my studies, I've been passionate about them for about as long as I can remember, to the point 
-							where it was almost a no-brainer on if I wanted to pursue a career in the industry. One of my defining traits is my over active
+							where it was almost a no-brainer on if I wanted to pursue a career in the industry. One of my defining traits is my over active 
 							imagination as there has never been a point in my life where I'm not dreaming, the only problem I would have is with creating.
-							But thanks to Eastern I'm more confident in my abilities to make something beautiful someday.
+							But thanks to my time at Eastern and Spandrel I'm more confident in my abilities to make something beautiful someday.
 						</p>
 					</div>
 			  	</div>
 
 				<div class="row">
-					<div class="col-lg-6 ml-auto mb-3">
+					<div class="col-lg-6 ml-auto mb-2">
 						<p class="lead">
-							Video Games to me has never been a medium primarily just for making money, I see it as a form of art. I've got the mindset that 
+						  	I have over a years worth of experience using the Unity Game Engine thanks to my time at Spandrel Interactive, I've been helping to 
+							add more functionality to a game they've been working on for a while now as well as testing for, and fixing bugs to get the game to 
+							a polished state. I've also spent a lot of time with making sprites for environments in the game using Piskel to make areas less empty 
+							and then I took a crack at making some keyframes for boss attack animations. The most fun I've had working at Spandrel was helping to 
+							brainstorm new movesets for the bosses in the game and then creating the functionality for each and every move.
+					  	</p>
+					</div>
+					<div class="col-lg-3 mr-auto mb-3">
+						<h4>My Time at Spandrel Interactive</h4>
+					</div>
+			  </div>
+
+				<div class="row">
+					<div class="col-lg-3 ml-auto mb-2 text-center">
+						<h4>I'm Passionate About The Games I Play And Make</h4>
+					</div>
+					<div class="col-lg-6 mr-auto mb-3">
+						<p class="lead">
+							Video Games have never been a medium primarily just for making money to me, I see it as a form of art. I've got the mindset that 
 							if you are not passionate about the games you are creating then you are destined to burn out, and the feel of the game will
 							suffer overall. See its not just a form of making money, its a medium of telling stories, letting other people experience
 							ideas and worlds that you can actually interact with. Unlike movies and books, Video Games can put you directly into the worlds
@@ -121,11 +162,9 @@
 							not necessarily happy nor sad, but with fondness.
 				  		</p>
 					</div>
-					<div class="col-lg-3 mr-auto mb-2 text-center">
-						<h4>I'm passionate about the video games I play</h4>
-						
-					</div>
 		  		</div>
+
+				<img class="img-fluid ml-auto" src="images/icons/Town Sprites.png">
 			<!--
 			  <div class="row">
 					<div class="col-lg-3 ml-auto mb-3">
@@ -141,19 +180,7 @@
 					</div>
 			  </div>
 
-			  <div class="row">
-					<div class="col-lg-3 ml-auto mb-3">
-						<h4>I'm passionate about the video games I play</h4>
-					</div>
-					<div class="col-lg-6 mr-auto mb-2">
-						<p class="lead">
-						  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-						  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-						  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					  </p>
-					</div>
-			  </div>
+			  
 
 			  <div class="row">
 					<div class="col-lg-3 ml-auto mb-3">
@@ -178,77 +205,77 @@
         		<h2 class="text-center text-uppercase mb-0">Portfolio</h2>
         		<hr class="star-light mb-5" />
         		<!-- start of row -->
-        		<div class="row">
-			  
+				<div class="row">
+
 					<!-- portfolio item 1 (Stargame) -->
-          			<div class="col-md-6 col-lg-4">            	
+					<div class="col-md-6 col-lg-4">
 						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-1">
-              				<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                				<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  					<i class="fas fa-search-plus fa-3x"></i>
-                				</div>
-              				</div>
-              				<img class="img-fluid" src="images/portfolio/Project Stargame.png" alt="">			
+							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid" src="images/portfolio/Project Stargame.png" alt="">
 						</div>
-			  		</div>
-			  
+					</div>
+
 					<!-- portfolio item 2 (Coronal Wasteland) -->
-          			<div class="col-md-6 col-lg-4">            	
+					<div class="col-md-6 col-lg-4">
 						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-2">
 							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
 								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
 									<i class="fas fa-search-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="images/portfolio/Coronal Wasteland.png" alt="">			
+							<img class="img-fluid" src="images/portfolio/Coronal Wasteland.png" alt="">
 						</div>
 					</div>
 
 					<!-- portfolio item 3 (Sad Game) -->
-					<div class="col-md-6 col-lg-4">            	
+					<div class="col-md-6 col-lg-4">
 						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
 							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
 								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
 									<i class="fas fa-search-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="images/portfolio/Project Sad Game.png" alt="">			
+							<img class="img-fluid" src="images/portfolio/Project Sad Game.png" alt="">
 						</div>
 					</div>
 
 					<!-- portfolio item 4 (Centipede) -->
-					<div class="col-md-6 col-lg-4">            	
-						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-4" data-backdrop="false">
+					<div class="col-md-6 col-lg-4">
+						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-4">
 							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
 								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
 									<i class="fas fa-search-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="images/Placeholder Game.png" alt="">			
+							<img class="img-fluid" src="images/portfolio/Centipede.png" alt="">
 						</div>
 					</div>
 
-					<!-- portfolio item 5 -->
-					<div class="col-md-6 col-lg-4">            	
+					<!-- portfolio item 5 (Puzzle Platformer) -->
+					<div class="col-md-6 col-lg-4">
 						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-5">
 							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
 								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
 									<i class="fas fa-search-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="images/Placeholder Game.png" alt="">			
+							<img class="img-fluid" src="images/portfolio/FpPuzzlePlatformer.png" alt="">
 						</div>
 					</div>
 
-					<!-- portfolio item 6 -->
-					<div class="col-md-6 col-lg-4">            	
+					<!-- portfolio item 6 (Noxia Somnia) -->
+					<div class="col-md-6 col-lg-4">
 						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
 							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
 								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
 									<i class="fas fa-search-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="images/Placeholder Game.png" alt="">			
+							<img class="img-fluid" src="images/portfolio/Noxia.png" alt="">
 						</div>
 					</div>
 
@@ -261,35 +288,55 @@
       		<div class="container">
 				
 				<div class="row">
-          			<div class="col-md-3 mb-5 mb-lg-0 text-left ">
-						<h4><a href="#about">About</a></h4>
-						<br>
-            			<h4><a href="#portfolio">Portfolio</a></h4>
+          			<div class="col-md-3 mb-5 mb-lg-0 text-left centered-vert">
+						<h4><a href="PDFs/Nicholas Christian Leblanc Resume.pdf" target="_blank">Resume</a></h4>
+						<h4><a href="PDFs/Nicholas Christian Leblanc CV.pdf" target="_blank">CV</a> </h4>
+						<h4><a href="PDFs/Nick LeBlanc Portfolio.pdf" target="_blank">Portfolio</a></h4>
           			</div>
 		  
 					<div class="col-md-6 mb-5 mb-lg-0">
             			<h4 class="text-uppercase mb-4">Social Links</h4>
             			<ul class="list-inline mb-0">
               				<li class="list-inline-item">
-                				<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/VoltageComedy" target="_blank">
-                  					<i class="fab fa-github"></i>
-                				</a>
-              				</li>
-              				<li class="list-inline-item">
-                				<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://twitter.com/Myztix_Nick" target="_blank">
-                  					<i class="fab fa-fw fa-twitter"></i>
-                				</a>
-              				</li>
-              				<li class="list-inline-item">
-                				<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/nicholas-leblanc-846a041b0/" target="_blank">
-                  					<i class="fab fa-fw fa-linkedin-in"></i>
-                				</a>
-              				</li>
-              				<li class="list-inline-item">
-                				<a class="btn btn-outline-dark btn-social text-center rounded-circle" href="mailto:nicholas_leblanc@outlook.com">
-                  					<i class="far fa-envelope"></i>
-                				</a>
-              				</li>
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/NicholasChristianLeBlanc" target="_blank"-->
+									<!--i class="fab fa-github"></i-->
+									<input type="image" 
+									src="images/icons/Github-default.png" 
+									onclick="window.open('https://github.com/NicholasChristianLeBlanc', '_blank')"
+									onMouseOver="this.src='images/icons/Github.gif'" 
+									onMouseOut="this.src='images/icons/Github-default.png'">
+							<!--/a-->
+						</li>
+						<li class="list-inline-item">
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://twitter.com/Myztix_Nick" target="_blank">
+								<i class="fab fa-fw fa-twitter"></i-->
+								<input type="image" 
+									src="images/icons/Twitter.png" 
+									onclick="window.open('https://twitter.com/Myztix_Nick', '_blank')"
+									onMouseOver="this.src='images/icons/Twitter.gif'" 
+									onMouseOut="this.src='images/icons/Twitter.png'">
+							<!--/a-->
+						</li>
+						<li class="list-inline-item">
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/nicholas-leblanc-846a041b0/" target="_blank">
+								<i class="fab fa-fw fa-linkedin-in"></i-->
+								<input type="image" 
+									src="images/icons/Linkedin.png" 
+									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
+									onMouseOver="this.src='images/icons/Linkedin.gif'" 
+									onMouseOut="this.src='images/icons/Linkedin.png'">
+							<!--/a-->
+						</li>
+						<li class="list-inline-item">
+							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="mailto:nicholas_leblanc@outlook.com"> 
+								<i class="far fa-envelope"></i-->
+								<input type="image" 
+									src="images/icons/Email.png" 
+									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
+									onMouseOver="this.src='images/icons/Email.gif'" 
+									onMouseOut="this.src='images/icons/Email.png'">
+							<!--/a-->
+						</li>
             			</ul>
           			</div>
 		  
@@ -340,9 +387,11 @@
 								lay their souls to rest
 							</p>
 
-							<button class="btn btn-primary" href="#" data-dismiss="modal">
-								<i class="fas fa-times fa-fw"></i>
-								Close Project
+							<button type="button" class="btn btn-primary">
+								<!--<a href="centipede.html">-->
+								<a href="GDDs/Project Stargame.pdf" target="_blank">
+									<span style="color:white"> View GDD </span>
+								</a>
 							</button>
 						</div>
 					</div>
@@ -377,9 +426,11 @@
 								of the fittest on this kill or be killed desolate wasteland also known as the Earth.
 							</p>
 				
-							<button class="btn btn-primary" href="#" data-dismiss="modal">
-								<i class="fas fa-times fa-fw"></i>
-								Close Project
+							<button type="button" class="btn btn-primary">
+								<!--<a href="centipede.html">-->
+								<a href="GDDs/Project Colonel Wasteland.pdf" target="_blank">
+									<span style="color:white"> View GDD </span>
+								</a>
 							</button>
 				
 						</div>
@@ -414,9 +465,11 @@
 								third person as the man’s life leaves his eyes and his body is left lifeless.
 							</p>
 				
-							<button class="btn btn-primary" href="#" data-dismiss="modal">
-								<i class="fas fa-times fa-fw"></i>
-								Close Project
+							<button type="button" class="btn btn-primary">
+								<!--<a href="centipede.html">-->
+								<a href="GDDs/Project Sad Game.pdf" target="_blank">
+									<span style="color:white"> View GDD </span>
+								</a>
 							</button>
 				
 						</div>
@@ -440,15 +493,16 @@
 						<div class="col-lg-8 mx-auto">
 							<h2 class="text-light text-uppercase mb-0">Centipede</h2>
 							<hr class="star-light mb-5">
-							<img class="img-fluid mb-5" src="images/Placeholder Game.png" alt="">
+							<img class="img-fluid mb-5" src="images/portfolio/Centipede.png" alt="">
 					
 							<p class="mb-5 text-light">
 								The classic game of Centipede created by Atari back in 1981 recreated in SDL2 with some slight changes from the original
 							</p>
 					
 							<button type="button" class="btn btn-primary">
-								<a href="centipede.html">
-									<span style="color:white"> View Centipede </span>
+								<!--<a href="centipede.html">-->
+								<a  href="downloads/Centipede.zip" download>
+									<span style="color:white"> Download Game </span>
 								</a>
 							</button>
 						</div>
@@ -457,7 +511,7 @@
 			</div>
 		</div>
 	
-		<!-- Portfolio Modal 5 -->
+		<!-- Portfolio Modal 5 (First Person Puzzle Platformer) -->
 		<div class="portfolio-modal modal fade" id="portfolio-modal-5" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-5-label" aria-hidden="true">
 			<div class="modal-dialog portfolio-modal-dialog bg-black modal-xl" role="document">
 		
@@ -470,18 +524,20 @@
 				<div class="container text-center">
 					<div class="row">
 						<div class="col-lg-8 mx-auto">
-							<h2 class="text-light text-uppercase mb-0">Project Name</h2>
+							<h2 class="text-light text-uppercase mb-0">First Person Puzzle Platformer</h2>
 							<hr class="star-light mb-5">
-							<img class="img-fluid mb-5" src="images/Placeholder Game.png" alt="">
+							<img class="img-fluid mb-5" src="images/portfolio/FpPuzzlePlatformer.png" alt="">
 					
 							<p class="mb-5 text-light">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
-								recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+								Made with Unreal Engine 4 and inspired by the Portal series of games developed by Valve, this puzzle platformer has you using a gun
+								whose projectiles will do 1 of 3 things: Grow, Shrink or Collide with any boxes they fly into.
 							</p>
 					
-							<button class="btn btn-primary" href="#" data-dismiss="modal">
-								<i class="fas fa-times fa-fw"></i>
-								Close Project
+							<button type="button" class="btn btn-primary">
+								<!--<a href="centipede.html">-->
+								<a href="downloads/FpPuzzlePlatformer.zip" download>
+									<span style="color:white"> Download Game </span>
+								</a>
 							</button>
 						</div>
 					</div>
@@ -489,7 +545,7 @@
 			</div>
 		</div>
 	
-		<!-- Portfolio Modal 6 -->
+		<!-- Portfolio Modal 6 (Noxia Somnia) -->
 		<div class="portfolio-modal modal fade" id="portfolio-modal-6" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-6-label" aria-hidden="true">
 			<div class="modal-dialog portfolio-modal-dialog bg-black modal-xl" role="document">
 		
@@ -502,20 +558,21 @@
 				<div class="container text-center">
 					<div class="row">
 						<div class="col-lg-8 mx-auto">
-							<h2 class="text-light text-uppercase mb-0">Project Name</h2>
+							<h2 class="text-light text-uppercase mb-0">Noxia Somnia</h2>
 							<hr class="star-light mb-5">
-							<img class="img-fluid mb-5" src="images/Placeholder Game.png" alt="">
+							<img class="img-fluid mb-5" src="images/portfolio/Noxia.png" alt="">
 					
 							<p class="mb-5 text-light">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
-								recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+								Worked as both a Video Game Developer and Sprite Artist on Spandrel Interactive's upcoming 2D metroidvania game "Noxia Somnia" where I created well over 300 individual sprites for the game and helped 
+								with brainstorming/implementing most of the move sets for the boss fights and did some polish for some of the menus in the game as well.
 							</p>
 					
-							<button class="btn btn-primary" href="#" data-dismiss="modal">
-								<i class="fas fa-times fa-fw"></i>
-								Close Project
+							<button type="button" class="btn btn-primary">
+								<!--<a href="centipede.html">-->
+								<a href="https://noxiasomnia.com/" target="_blank">
+									<span style="color:white"> View Website </span>
+								</a>
 							</button>
-					
 						</div>
 					</div>
 				</div>
@@ -534,5 +591,4 @@
 
   	<!-- Custom scripts for this template -->
 	<script src="js/main.js"></script>
-	  
 </html>
