@@ -21,7 +21,7 @@
 		  
 	<body>
     	<!-- Navigation -->
-    	<nav class="navbar navbar-expand-lg fixed-top text-uppercase bg-black" id="mainNav">
+    	<nav class="navbar navbar-expand-lg fixed-top text-uppercase bg-starsblue bg-black" id="mainNav">
         	<!-- start of container -->
         	<div class="container">
             	<a class="navbar-brand js-scroll-trigger" href="#page-top"><!--<img class="" src="img/portfolio/logo.png" alt="">-->Nick LeBlanc</a>
@@ -51,12 +51,13 @@
             <div class="container">
 				<div class="row">
 					<!--img id="image" src="images/icons/Blimp.gif"-->
-					<img class="img-fluid ml-auto my-header-picture" src="images/profile1.jpg">
+					<img class="img-fluid ml-auto my-header-picture" src="images/profile.jpg">
         			<ul style="list-style-type:none;" class="social mr-auto">
 						<li class="mylistfirst-inline-item">
 							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/NicholasChristianLeBlanc" target="_blank"-->
 									<!--i class="fab fa-github"></i-->
 									<input type="image" 
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									src="images/icons/Github-default.png" 
 									onclick="window.open('https://github.com/NicholasChristianLeBlanc', '_blank')"
 									onMouseOver="this.src='images/icons/Github.gif'" 
@@ -66,7 +67,8 @@
 						<li class="mylist-inline-item">
 							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://twitter.com/Myztix_Nick" target="_blank">
 								<i class="fab fa-fw fa-twitter"></i-->
-								<input type="image" 
+								<input type="image"
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									src="images/icons/Twitter.png" 
 									onclick="window.open('https://twitter.com/Myztix_Nick', '_blank')"
 									onMouseOver="this.src='images/icons/Twitter.gif'" 
@@ -77,6 +79,7 @@
 							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/nicholas-leblanc-846a041b0/" target="_blank">
 								<i class="fab fa-fw fa-linkedin-in"></i-->
 								<input type="image" 
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									src="images/icons/Linkedin.png" 
 									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
 									onMouseOver="this.src='images/icons/Linkedin.gif'" 
@@ -87,6 +90,7 @@
 							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="mailto:nicholas_leblanc@outlook.com"> 
 								<i class="far fa-envelope"></i-->
 								<input type="image" 
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									src="images/icons/Email.png" 
 									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
 									onMouseOver="this.src='images/icons/Email.gif'" 
@@ -98,8 +102,10 @@
       		</div>
     	</header>
 
-		<section class="quote bg-black text-white" id="quote">
-			<h3 class="text-center">Don't cry because it's over. Smile because it happened - Dr. Seuss</h3>
+		<!-- Quote Section -->
+		<section class="quote bg-quote text-black" id="quote">
+			<h3 class="text-quote">Don't cry because it's over.</h3>
+			<h3 class="text-quote">Smile because it happened - Dr. Seuss</h3>
 		</section>
 
 		<!-- About Section -->
@@ -117,21 +123,28 @@
 			  	<div class="row">
 					<!-- ml-auto sets margin-left to auto -->
 					<div class="col-lg-3 ml-auto mb-3 text-center">
-						<h4>I Graduated From Eastern College in May of 2022</h4>
+						<h4>I Graduated From Eastern College in May of 2022 With Honors</h4>
 					</div>
 					<!-- mr-auto sets margin-right to auto -->
 					<div class="col-lg-6 mr-auto mb-2">
 						<!-- lead class makes paragraph stand out -->
 						<p class="lead">
 							Through my studies I've become comfortable with Unreal Engine 4 along with Unity, C++, C#, SDL2, Swift and Java, I also have a 
-							basic understanding using programs such as Blender, Maya, Illustrator, Photoshop and Premiere Pro. Though I've grown a greater 
-							gratitude of video games through my studies, I've been passionate about them for about as long as I can remember, to the point 
-							where it was almost a no-brainer on if I wanted to pursue a career in the industry. One of my defining traits is my over active 
-							imagination as there has never been a point in my life where I'm not dreaming, the only problem I would have is with creating.
-							But thanks to my time at Eastern and Spandrel I'm more confident in my abilities to make something beautiful someday.
+							basic understanding using programs such as Blender, Maya, Illustrator, Photoshop and Premiere Pro.
 						</p>
 					</div>
 			  	</div>
+
+				<div class="row">
+					<ul style="list-style-type: circle;" class = "mr-auto">
+							<li>
+								<h2 class= "text-center">Hello World</h2>
+							</li>
+							<li>
+								<h2 class= "text-center">Hello World</h2>
+							</li>
+					</ul>
+				</div>
 
 				<div class="row">
 					<div class="col-lg-6 ml-auto mb-2">
@@ -296,12 +309,13 @@
 		  
 					<div class="col-md-6 mb-5 mb-lg-0">
             			<h4 class="text-uppercase mb-4">Social Links</h4>
-            			<ul class="list-inline mb-0">
+            			<ul style="list-style-type:none;" class="list-inline social-bottom mb-0">
               				<li class="list-inline-item">
 							<!--a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/NicholasChristianLeBlanc" target="_blank"-->
 									<!--i class="fab fa-github"></i-->
 									<input type="image" 
 									src="images/icons/Github-default.png" 
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									onclick="window.open('https://github.com/NicholasChristianLeBlanc', '_blank')"
 									onMouseOver="this.src='images/icons/Github.gif'" 
 									onMouseOut="this.src='images/icons/Github-default.png'">
@@ -312,6 +326,7 @@
 								<i class="fab fa-fw fa-twitter"></i-->
 								<input type="image" 
 									src="images/icons/Twitter.png" 
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									onclick="window.open('https://twitter.com/Myztix_Nick', '_blank')"
 									onMouseOver="this.src='images/icons/Twitter.gif'" 
 									onMouseOut="this.src='images/icons/Twitter.png'">
@@ -322,6 +337,7 @@
 								<i class="fab fa-fw fa-linkedin-in"></i-->
 								<input type="image" 
 									src="images/icons/Linkedin.png" 
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
 									onMouseOver="this.src='images/icons/Linkedin.gif'" 
 									onMouseOut="this.src='images/icons/Linkedin.png'">
@@ -332,6 +348,7 @@
 								<i class="far fa-envelope"></i-->
 								<input type="image" 
 									src="images/icons/Email.png" 
+									style="width:auto; width:2vmin; width:4vmax; height:auto;"
 									onclick="window.open('https://www.linkedin.com/in/nicholas-leblanc-846a041b0/', '_blank')"
 									onMouseOver="this.src='images/icons/Email.gif'" 
 									onMouseOut="this.src='images/icons/Email.png'">
@@ -389,8 +406,8 @@
 
 							<button type="button" class="btn btn-primary">
 								<!--<a href="centipede.html">-->
-								<a href="GDDs/Project Stargame.pdf" target="_blank">
-									<span style="color:white"> View GDD </span>
+								<a href="Stargame.html">
+									<span style="color:white"> View Resources </span>
 								</a>
 							</button>
 						</div>
@@ -569,8 +586,8 @@
 					
 							<button type="button" class="btn btn-primary">
 								<!--<a href="centipede.html">-->
-								<a href="https://noxiasomnia.com/" target="_blank">
-									<span style="color:white"> View Website </span>
+								<a href="Noxia.html">
+									<span style="color:white"> View Samples </span>
 								</a>
 							</button>
 						</div>
